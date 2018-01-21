@@ -28,6 +28,7 @@ have not yet attempted to remerge the code.
 
 
 == Project Goals & Philosophy ==
+
 Since 'Enhanced' fork...
 
 * Over-arching goal
