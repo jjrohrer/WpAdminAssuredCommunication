@@ -22,7 +22,39 @@ KJM Admin Notices doesn't seem to exist on GitHub, so posting here with intentio
 
 * Renamed project  *"KJM Admin Notices Enhanced"* to avoid conflicts
 
+As of 1/18', this fork is a work in progress (and you should not use this in production code). High praise goes to the project's original author.  That this
+has been forked is not meant to disparage the orginal authors in any way, only that I honor their original work and
+have not yet attempted to remerge the code.
 
+
+== Project Goals & Philosophy ==
+Since 'Enhanced' fork...
+
+* Over-arching goal
+** *Communicate to Power Users*
+** *Assured, Timely, Easy to Create, Easy to Consume*
+
+* In-Scope:
+** Email, Web, In-Site... "Rich Broadcast", light two-way communication
+
+* Out-of-Scope:
+** Rich help-desk support / Deep two-way communication
+
+* Motivation (namely for the 'Enhanced' fork)
+**  As an administration of a multi-site web app, I want to
+*** communicate to my power users
+*** Give prospective clients/users evidence that this is not a dead project
+*** Ease fricture in deploying new features (by communicating to key stakeholders)
+*** Contribute to community 
+
+* Plan of Attack 1/18'
+** Fork KJM Admin Notices into KJM Admin Notices Enhanced, post project goals
+** Bring in RSS-to-post code to generate notices (Test with some RSS-to-MailChimp functionality) 
+** Do, or document, method for consumers to access old posts
+** Refinements
+*** Order posts by severity, then publish date
+*** Limit audience to specific subset of roles
+** Contact original authors and attempt, if appropriated, re-merge the code
 
 = Features: =
 
