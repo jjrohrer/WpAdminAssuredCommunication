@@ -58,7 +58,7 @@ register_deactivation_hook( __FILE__, 'deactivate_kjm_admin_notices' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-kjm-admin-notices-enhanced.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-kjm-admin-notices.php';
 
 /**
  * Begins execution of the plugin.
