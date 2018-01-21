@@ -20,6 +20,7 @@ Fork is here: https://github.com/jjrohrer/WpAdminAssuredCommunication
 == Project Etomology ==
 KJM Admin Notices doesn't seem to exist on GitHub, so posting here with intention of forking the code to support a different scope.  If possible, we'll remerge the projects.
 
+* Renamed project  *"KJM Admin Notices Enhanced"* to avoid conflicts
 
 
 
@@ -76,9 +77,9 @@ There are currently 3 different shortcodes available in KJM Admin Notices.
 == Screenshots ==
 
 1. Admin Notices display.
-2. Settings page. 
-3. Edit Notice page. 
-4. Post type list page. 
+2. Settings page.
+3. Edit Notice page.
+4. Post type list page.
 
 == Changelog ==
 
@@ -134,7 +135,7 @@ Added possibility to customize display of notices, hardened security, and a lot 
 
 = 1.0.0 =
 
-* Initial release of kjm-admin-notices. 
+* Initial release of kjm-admin-notices.
 * Refactorized to WordPress Plugin Boilerplate 3.0.
 
 == Upgrade Notice ==

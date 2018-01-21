@@ -10,10 +10,10 @@
  *
  * @link              https://www.kajoom.ca/
  * @since             1.0.0
- * @package           Kjm_Admin_Notices
+ * @package           Kjm_Admin_Notices_Enhanced
  *
  * @wordpress-plugin
- * Plugin Name:       KJM Admin Notices
+ * Plugin Name:       KJM Admin Notices Enhanced
  * Plugin URI:        https://www.kajoom.ca/
  * Description:       Create and manage custom admin notices dismissable by the user.
  * Version:           1.0.5
@@ -58,7 +58,7 @@ register_deactivation_hook( __FILE__, 'deactivate_kjm_admin_notices' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-kjm-admin-notices.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-kjm-admin-notices-enhanced.php';
 
 /**
  * Begins execution of the plugin.
