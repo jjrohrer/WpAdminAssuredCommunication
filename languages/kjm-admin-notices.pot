@@ -29,7 +29,11 @@ msgstr ""
 #: ../includes/models/post-type-kjm_notice.php:12
 #: ../includes/models/post-type-kjm_notice.php:13
 msgid "Add Notice"
-msgstr ""
+msgstr "Add a Notice"
+
+msgid "AddANotice"
+msgstr "Add a Notice"
+
 
 #: ../includes/models/post-type-kjm_notice.php:14
 #: ../admin/class-kjm-admin-notices-admin.php:639
