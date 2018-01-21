@@ -1,4 +1,5 @@
-=== KJM Admin Notices ===
+KJM Admin Notices
+=================
 Contributors: webmarka, jjrohrer
 Donate link: https://www.kajoom.ca
 Tags: admin notice, admin notices, notices, dashboard, messages, dismissable, management tool, email notifications, maintenance, administration
@@ -10,14 +11,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Create, manage and display to admin users nice custom dismissable notices with it's own title, author, date, category, tags and more.
 
-== Description ==
+Description
+============
 
 KJM Admin Notices helps you communicate with your other website users by providing a complete way of managing and displaying nice admin notices inside the WP admin panel.
 
 Git Repository is marginally here: https://github.com/webmarka/show-notice-or-message-on-admin-area
 Fork is here: https://github.com/jjrohrer/WpAdminAssuredCommunication
 
-== Project Etomology ==
+Project Etomology
+=================
 KJM Admin Notices doesn't seem to exist on GitHub, so posting here with intention of forking the code to support a different scope.  If possible, we'll remerge the projects.
 
 * Renamed project  *"KJM Admin Notices Enhanced"* to avoid conflicts
@@ -27,7 +30,8 @@ has been forked is not meant to disparage the orginal authors in any way, only t
 have not yet attempted to remerge the code.
 
 
-== Project Goals & Philosophy ==
+Project Goals & Philosophy
+=========================
 
 Since 'Enhanced' fork...
 
@@ -58,6 +62,7 @@ Since 'Enhanced' fork...
 ** Contact original authors and attempt, if appropriated, re-merge the code
 
 = Features: =
+=============
 
 * Create, manage and display to admin users nice custom dismissable notices.
 * Designed in a will to improve communication between admins and others users and roles.
@@ -72,6 +77,7 @@ Since 'Enhanced' fork...
 * Save general system along with notice : WordPress version, active plugins and versions, theme and version, child-theme and version.
 
 == Installation ==
+==================
 
 1. Upload `kjm-admin-notices` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -79,6 +85,7 @@ Since 'Enhanced' fork...
 1. Start creating your notices by going to 'Manage KJM Admin Notices' and have fun!
 
 == Frequently Asked Questions ==
+================================
 
 = Installed plugin but I don't see how I can use it? =
 
@@ -93,6 +100,7 @@ First, make sure the 'Send Email' option is on. Same thing on your notice edit s
 This is a built-in feature. At current state, KJM Admin Notices always set the status of a Notice to 'Private' on publish. It is to make sure only logged-in users can see notices and them comments, if 'Allow Comments' option is enabled. Future releases will have more options about it.
 
 = How to use shortcodes? =
+==========================
 
 There are currently 3 different shortcodes available in KJM Admin Notices.
 
@@ -108,6 +116,7 @@ There are currently 3 different shortcodes available in KJM Admin Notices.
 * Remove local-settings.php, or set it to be read from the theme first (this file is for setting local data mainly for developement or customization purposes).
 
 == Screenshots ==
+=================
 
 1. Admin Notices display.
 2. Settings page.
@@ -115,6 +124,7 @@ There are currently 3 different shortcodes available in KJM Admin Notices.
 4. Post type list page.
 
 == Changelog ==
+===============
 
 = 1.0.5 =
 
