@@ -1,0 +1,140 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+
+.wp-list-table td .fields_count,
+.wp-list-table td .status_tag {
+	display: inline-block; 
+	line-height: 3em; 
+	text-align: center; 
+	width: 3em; 
+	border: 1px solid rgb(238, 238, 238);
+	border-radius: 4px;
+}
+
+.wp-list-table td .fields_count {
+	cursor: help; 
+}
+
+.wp-list-table td .status_tag {
+	background: #eee;
+	font-weight: 600;
+	width: 100%;
+}
+
+.wp-list-table td .status_tag.open,
+.wp-list-table td .status_tag.active {
+	background: green;
+	color: white;
+}
+.wp-list-table td .status_tag.processing,
+.wp-list-table td .status_tag.none {
+	background: gold;
+}
+.wp-list-table td .status_tag.closed,
+.wp-list-table td .status_tag.inactive {
+	background: #999;
+}
+
+/* SETTINGS PAGE */
+
+.form-table {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+		max-width: 840px;
+}
+
+.settings_page_kjm-admin-notices-settings-settings .form-table tr.child {
+	border-bottom: 1px solid #ccc;
+}
+.settings_page_kjm-admin-notices-settings .form-table tr.child:hover {
+	background-color: #B1D9E5 !important;
+}
+.settings_page_kjm-admin-notices-settings .form-table tr.parent:hover {
+	opacity: 1 !important;
+}
+
+.settings_page_kjm-admin-notices-settings .form-table th {
+    width: 30%;
+}
+.settings_page_kjm-admin-notices-settings .form-table td {
+    width: auto;
+}
+.settings_page_kjm-admin-notices-settings .form-table td,
+.settings_page_kjm-admin-notices-settings .form-table th {
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+.settings_page_kjm-admin-notices-settings .form-table th h3 {
+	margin: 0;
+}
+.settings_page_kjm-admin-notices-settings .form-table th label,
+.settings_page_kjm-admin-notices-settings .form-table th h3  {
+	font-size: 1em;
+}
+.settings_page_kjm-admin-notices-settings .form-table .parent th label,
+.settings_page_kjm-admin-notices-settings .form-table .parent th h3  {
+	font-size: 1.2em;
+}
+
+
+/* Plugin specific */
+
+.kjm-admin-notice p {
+    width: 100%;
+}
+.kjm-admin-notice img.alignleft, .kjm-admin-notices img.alignright {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.kjm-admin-notice p i.date {
+    display: inline-block;
+    margin: 0 20px;
+}
+.kjm-admin-notice p i.date.alone {
+	margin-left: 0;
+}
+.kjm-admin-notice p i.small,
+.kjm-admin-notice p i.small a {
+    color: #989898;
+}
+.kjm-admin-notice p i.small a:hover {
+    color: #454545;
+}
+.kjm-admin-notice p b.notice-title {
+}
+.kjm-admin-notice a.edit-link {
+    position: absolute;
+    right: 50px;
+}
+.kjm-admin-notice button.kjm-notice-dismiss {
+    float: right;
+    position: relative;
+    top: -36px;
+}
+.kjm-admin-notice button.kjm-notice-dismiss::before {
+    content: "";
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+@media only screen and (max-width: 640px) {
+
+	/* mobile-specific CSS styles go here */
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	/* mobile-specific CSS styles go here */
+
+}
